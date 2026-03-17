@@ -1536,6 +1536,9 @@ def gerar_pdf_completo():
                 can.drawString(X_ALINHAMENTO, 528, "Inversor com capacidade")
                 can.drawString(X_ALINHAMENTO, 512,
                                f"de ampliar {sobra_modulos} {'Módulo' if sobra_modulos == 1 else 'Módulos'}")
+            else:
+                can.drawString(X_ALINHAMENTO, 528, "Inversor em")
+                can.drawString(X_ALINHAMENTO, 512, "carregamento máximo")
 
             # --- Lógica do Gráfico ---
             ordem_meses = ["JAN", "FEV", "MAR", "ABR", "MAI", "JUN", "JUL", "AGO", "SET", "OUT", "NOV", "DEZ"]

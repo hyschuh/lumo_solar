@@ -1447,7 +1447,7 @@ def gerar_pdf_completo():
 
             # Definindo a cor Azul Marinho (#002d81)
             can_capa.setFillColorRGB(0.0, 0.176, 0.506)
-            can_capa.drawString(43, 442, nome_cliente)
+            can_capa.drawString(41, 442, nome_cliente)
 
             can_capa.save()
             packet_capa.seek(0)

@@ -1458,7 +1458,7 @@ def renderizar_pagina_3(can):
 
 def gerar_pdf_completo():
     writer = PdfWriter()
-    caminho_capa = r"apa.pdf"
+    caminho_capa = r"capa.pdf"
     caminho_fundo_p2 = r"dois.jpg"
     caminho_excel = r"precos_lumo.xlsx"
 
